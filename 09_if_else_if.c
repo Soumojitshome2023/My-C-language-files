@@ -1,12 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int num;
 
     printf("Enter your number\n");
     scanf("%d", &num);
 
-    if(num==1){
+    if (num == 1)
+    {
         printf("Your number is 1\n");
     }
     else if (num == 2)
@@ -17,10 +19,10 @@ int main(){
     {
         printf("Your number is 3\n");
     }
-    else{
+    else
+    {
         printf("Its not 1, 2 or 3!\n");
     }
-     
 
     return 0;
 }

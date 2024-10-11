@@ -1,17 +1,19 @@
-#include<stdio.h>
-void abc(char *st){
+#include <stdio.h>
+void abc(char *st)
+{
 
-    printf("2: %u\n", st); // char ar 1st valu-r address print hobe
-    
-    printf("3: %c \n", *st);   // char ar 1st value ta print hobe
+    printf("2: %u\n", st);
+
+    printf("3: %c \n", *st);
 }
 
-int main(){
+int main()
+{
     char st[] = "soumojit";
 
-    printf("1: %u\n", st);  // char ar 1st valu-r address print hobe
-    
-    abc(st);        // Function Call  important line
+    printf("1: %u\n", st);
+
+    abc(st);
 
     return 0;
 }

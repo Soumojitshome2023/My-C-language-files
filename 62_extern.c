@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    
-    // int abc = 4;
+int main()
+{
+
     extern int abc;
 
     printf("%d", abc);
-    
+
     return 0;
 }
 int abc = 6;

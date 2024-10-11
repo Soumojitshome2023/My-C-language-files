@@ -25,7 +25,8 @@ void countSort(char arr[])
 		count[i] += count[i - 1];
 
 	// Build the output character array
-	for (i = 0; arr[i]; ++i) {
+	for (i = 0; arr[i]; ++i)
+	{
 		output[count[arr[i]] - 1] = arr[i];
 		--count[arr[i]];
 	}

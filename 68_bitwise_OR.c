@@ -12,12 +12,13 @@ _____________________________________________*/
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
-    int a = 12, b = 25;
-    printf("Output = %d", a | b);
+  int a = 12, b = 25;
+  printf("Output = %d", a | b);
 
-    return 0;
+  return 0;
 }
 
 // Output = 29

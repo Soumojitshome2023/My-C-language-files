@@ -1,9 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
+int main()
+{
 
-int main(){
-    
     printf("Date is : %s \n", __DATE__);
     printf("Time is : %s \n", __TIME__);
 

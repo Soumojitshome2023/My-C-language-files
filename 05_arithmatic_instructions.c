@@ -1,7 +1,8 @@
-# include<stdio.h>
-# include <math.h>
+#include <stdio.h>
+#include <math.h>
 
-int main(){
+int main()
+{
     int a = 4;
     int b = 8;
 
@@ -12,13 +13,11 @@ int main(){
 
     printf("The value of 5 / 2 is: %0.2f\n", (float)5 / 2);
 
-    printf("5 when divided by 2 leaves a remainder of %d\n", 5%2);
-
+    printf("5 when divided by 2 leaves a remainder of %d\n", 5 % 2);
 
     printf("The value of 2 to the power 5 is %f\n", pow(2, 5));
 
     printf("The value root 4 is %f\n", sqrt(4));
 
     return 0;
-    
 }

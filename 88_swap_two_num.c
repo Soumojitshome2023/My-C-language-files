@@ -7,7 +7,7 @@ int main()
     temp = x;
     x = y;
     y = temp;
-    
+
     printf("x = %d and y = %d", x, y);
 
     return 0;

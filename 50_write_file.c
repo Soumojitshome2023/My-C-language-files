@@ -1,15 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     FILE *fptr;
-    int number = 45;
+    int number = 143;
 
-    fptr = fopen("generate.txt", "w");     // open file
+    fptr = fopen("generate.txt", "w"); // open file
 
     fprintf(fptr, "The number is %d\n", number);
-    fprintf(fptr, "Thanks for using fprintf");
-    
-    fclose(fptr);                // close file
+    fprintf(fptr, "Today : 11 Oct 2024");
+
+    fclose(fptr); // close file
 
     return 0;
 }

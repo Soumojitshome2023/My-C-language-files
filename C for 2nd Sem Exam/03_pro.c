@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n, i, sum_neg = 0,sum_posi=0;
+    int n, i, sum_neg = 0, sum_posi = 0;
     ;
     printf("Enter size of array : ");
     scanf("%d", &n);
@@ -19,15 +19,13 @@ int main()
     {
         if (arr[i] < 0)
             sum_neg += arr[i];
-        
+
         else if (arr[i] > 0)
             sum_posi += arr[i];
-        
     }
 
-printf("Sum of positive num = %d\n", sum_posi);
-printf("Sum of negetive num = %d\n", sum_neg);
-
+    printf("Sum of positive num = %d\n", sum_posi);
+    printf("Sum of negetive num = %d\n", sum_neg);
 
     return 0;
 }

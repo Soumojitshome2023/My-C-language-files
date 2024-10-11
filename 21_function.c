@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void display(); // Function prototype
 
-int main(){
+int main()
+{
 
     printf("Line 1\n");
 
@@ -13,7 +14,8 @@ int main(){
 }
 
 // Function definition
-void display(){
+void display()
+{
 
-    printf("Line 2\n"); 
+    printf("Line 2\n");
 }

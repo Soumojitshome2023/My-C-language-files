@@ -3,11 +3,9 @@
 int main()
 {
     FILE *ptr = NULL;
-    ptr = fopen("getcdemo.txt", "r+");
+    ptr = fopen("putcdemo.txt", "r+");
 
-    fputs("Hello Guys",ptr);
-
-
+    fputs("Soumojit Shome", ptr);
 
     fclose(ptr);
     return 0;

@@ -1,9 +1,10 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
-int main(){
-    
-    char s1 [] = "raj";
+int main()
+{
+
+    char s1[] = "raj";
 
     printf("reversed value is %s", strrev(s1));
 

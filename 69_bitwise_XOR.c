@@ -1,4 +1,13 @@
-/* Bitwise XOR 
+/* Bitwise XOR
+_________________________________________________
+  XOR Truth Table
+
+  A   B   A ⊕ B
+  --------------
+  0   0     0
+  0   1     1
+  1   0     1
+  1   1     0
 _________________________________________________
 12 = 00001100 (In Binary)
 25 = 00011001 (In Binary)
@@ -12,12 +21,13 @@ _________________________________________________*/
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
-    int a = 12, b = 25;
-    printf("Output = %d", a ^ b);
+  int a = 12, b = 25;
+  printf("Output = %d", a ^ b);
 
-    return 0;
+  return 0;
 }
 
-//Output = 21
+// Output = 21

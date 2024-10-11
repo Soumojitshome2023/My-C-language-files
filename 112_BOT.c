@@ -8,13 +8,13 @@ int main()
     char st[30], user_name[20];
 
     while ((strcmp(st, "bye")))
-    {   
-        // user input 
+    {
+        // user input
         printf("\nType Here : ");
         gets(st);
 
-        if ((strcmp(st, "bye"))) // say bye to end 
-        {   
+        if ((strcmp(st, "bye"))) // say bye to end
+        {
             // frequently asked questions
 
             if (!(strcmp(st, "hello")) || !(strcmp(st, "hi")) || !(strcmp(st, "hey")))
@@ -50,10 +50,8 @@ int main()
             else if (!(strcmp(st, "good morning")) || !(strcmp(st, "good afternoon")))
                 printf("Hmm, Good Morning ^_^");
 
-
-
-            else 
-            {   // for unknown questions
+            else
+            { // for unknown questions
                 printf("I can't understand :( ");
             }
         }

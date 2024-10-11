@@ -10,6 +10,7 @@ int main()
   // marks3 = 67;
   // marks4 = 87;
   // arryas:
+
   int marks[4];
 
   marks[0] = 34;
@@ -22,8 +23,7 @@ int main()
   printf("%d\n", marks[2]);
   printf("%d\n", marks[3]);
 
-  printf("%d", (marks[0] + marks[1])); 
-
+  printf("%d", (marks[0] + marks[1]));
 
   return 0;
 }

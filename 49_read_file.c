@@ -1,14 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     FILE *fptr;
     int num;
 
-    fptr = fopen("raj.txt", "r");        // open file
-  
-    fscanf(fptr, "%d", &num);        // raj.txt ar data ta num a copy holo
+    fptr = fopen("soumojit.txt", "r"); // open file
 
-    fclose(fptr);                // close file
+    fscanf(fptr, "%d", &num); // Copy the value of soumojit.txt to num
+
+    fclose(fptr); // close file
 
     printf("The value of num is %d\n", num);
 

@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
-   (4>3)? printf("Yes") : printf("No");
+    (4 > 3) ? printf("Yes") : printf("No");
 
     return 0;
 }

@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    
+int main()
+{
+
     printf("ASCII Value of A : %d \n", 'A');
     printf("ASCII Value of Z : %d \n", 'Z');
     printf("ASCII Value of a : %d \n", 'a');

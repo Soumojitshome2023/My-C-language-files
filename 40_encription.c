@@ -1,11 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     char c[] = "Raj";
 
-    
     *c = *c + 1;
-
 
     printf("Encrypted string is: %s", c);
     return 0;

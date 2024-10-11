@@ -1,4 +1,4 @@
-//Character is a vowel or not
+// Character is a vowel or not
 #include <stdio.h>
 
 int main()

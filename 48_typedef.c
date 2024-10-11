@@ -1,13 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
-typedef struct employee{
+typedef struct employee
+{
     int code;
     float salary;
-} emp;                  // struct employee = emp   
+} emp; // struct employee = emp
 
-int main(){
-    
-    emp e1;       
+int main()
+{
+
+    emp e1;
 
     e1.code = 100;
     e1.salary = 34.454;

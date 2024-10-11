@@ -1,15 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    
-    abc: 
-        printf("Hello 1 \n");
-        goto pqr;                   // goto pqr mane chole jao pqr a 
+int main()
+{
 
-    printf("Hello 2 \n"); 
+abc:
+    printf("Hello 1 \n");
+    goto pqr;
 
-    pqr:
-        printf("Hello 3 \n"); 
-    
+    printf("Hello 2 \n");
+
+pqr:
+    printf("Hello 3 \n");
+
     return 0;
 }

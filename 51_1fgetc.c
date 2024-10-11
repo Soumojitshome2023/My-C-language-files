@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     FILE *ptr;
     // fgetc demo for reading a file
 
     ptr = fopen("getcdemo.txt", "r");
-    // char c = fgetc(ptr);                 
+    // char c = fgetc(ptr);
 
     printf("The value of my character is %c\n", fgetc(ptr));
     printf("The value of my character is %c\n", fgetc(ptr));
@@ -16,4 +17,3 @@ int main(){
     fclose(ptr);
     return 0;
 }
-// 

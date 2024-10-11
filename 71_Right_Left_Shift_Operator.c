@@ -1,11 +1,11 @@
-/* 
+/*
 ___________________________________________________________________
 Right Shift Operator:
 
 212 = 11010100 (In binary)
 212 >> 2 = 00110101 (In binary) [Right shift by two bits]
 212 >> 7 = 00000001 (In binary)
-212 >> 8 = 00000000 
+212 >> 8 = 00000000
 212 >> 0 = 11010100 (No Shift)
 
 
@@ -18,25 +18,26 @@ Left Shift Operator:
 
 ______________________________________________________________________*/
 
-
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
-    int num=212, i;
+    int num = 212, i;
 
-    for (i = 0; i <= 2; ++i) {
+    for (i = 0; i <= 2; ++i)
+    {
         printf("Right shift by %d: %d\n", i, num >> i);
     }
     printf("\n");
 
-    for (i = 0; i <= 2; ++i) {
-        printf("Left shift by %d: %d\n", i, num << i);    
+    for (i = 0; i <= 2; ++i)
+    {
+        printf("Left shift by %d: %d\n", i, num << i);
     }
 
     return 0;
 }
-
 
 /* Outputs:
 

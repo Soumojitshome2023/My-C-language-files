@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <string.h>
 
-int main(){
+int main()
+{
     char *st = "Harry";
-    
-    int a = strlen(st); // length print korte use hoi
+
+    int a = strlen(st);
 
     printf("The length of string st is %d", a);
     return 0;
